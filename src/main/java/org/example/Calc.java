@@ -11,4 +11,8 @@ public class Calc {
     {
         return x*y;
     }
+
+    public void testSubtraction() {
+        assertEquals(2, c.subtract(4,2));
+    }
 }
